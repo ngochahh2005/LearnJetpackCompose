@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JetpackCompose</string>
+    <string name="test_text">Kiến thức cơ bản về cách tạo ứng dụng Android bằng Compose là một khoá học trực tuyến theo tiến độ riêng về cách xây dựng ứng dụng Android bằng các phương pháp hay nhất và mới nhất. Khoá học này trình bày kiến thức cơ bản về cách tạo ứng dụng bằng Jetpack Compose, bộ công cụ nên dùng để tạo giao diện người dùng thích ứng trên Android.</string>
+</resources>
