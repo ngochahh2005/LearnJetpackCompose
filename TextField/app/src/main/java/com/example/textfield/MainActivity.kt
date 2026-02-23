@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -71,14 +72,15 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun CommonSpace() {
-    Spacer(modifier = Modifier.height(24.dp))
+    Spacer(modifier = Modifier.height(18.dp))
 }
 
 @Composable
 fun HomeScreen() {
     Column(
         modifier = Modifier.padding(30.dp).fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
         DemoTextField()
         CommonSpace()
